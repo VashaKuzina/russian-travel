@@ -1,0 +1,13 @@
+.place__full-info {
+  display: flex;
+  align-items:flex-start;
+}
+
+@media screen and (max-width: 320px) {
+  .place__full-info {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+}
+
