@@ -3,14 +3,15 @@
   grid-template-rows: repeat(auto-fit, minmax(213px, 3fr));
   grid-template-columns: repeat(auto-fit, minmax(284px, 4fr));
   gap: 16px;
-  margin-left: 48px;
-  margin-right: 48px;
+  margin: auto;
   padding-bottom: 92px;
   max-width: 1184px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .photo-grid {
+    margin-left: 48px;
+    margin-right: 48px;
     gap: 14px;
   }
 }
